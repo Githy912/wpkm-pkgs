@@ -1,0 +1,8 @@
+{
+  "name": "curl-8.22.0_1-win64-mingw",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "curl-8.22.0_1-win64-mingw.zip",
+  "sha3-512": "dbe02b42d92b6c45dfb6047a072e40c32f5902ebff25b9577aa096635d9b199fa96413ef58afd1db81c9fafc2993ba45259f949b776b880a8736c523d2d4e40a"
+}
