@@ -24,27 +24,33 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Find package
+      - name: Find changed package
         id: package
         shell: bash
         run: |
           set -euo pipefail
 
+          echo "Finding package changed by this pull request..."
+
           mapfile -t packages < <(
-            find packages \
-              -mindepth 1 \
-              -maxdepth 1 \
-              -type d \
-              -printf '%f\n'
+            git diff --name-only \
+              "${{ github.event.pull_request.base.sha }}" \
+              "${{ github.event.pull_request.head.sha }}" |
+              awk -F/ '
+                $1 == "packages" && NF >= 2 {
+                  print $2
+                }
+              ' |
+              sort -u
           )
 
           if [ "${#packages[@]}" -eq 0 ]; then
-            echo "::error::No package directory was found under packages/"
+            echo "::error::No package directory was changed."
             exit 1
           fi
 
           if [ "${#packages[@]}" -gt 1 ]; then
-            echo "::error::Multiple package directories were found."
+            echo "::error::Multiple package directories were changed in this pull request."
             printf 'Found: %s\n' "${packages[@]}"
             exit 1
           fi
