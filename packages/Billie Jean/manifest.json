@@ -1,0 +1,8 @@
+{
+  "name": "Billie Jean",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "Billie Jean.mp3",
+  "sha3-512": "c5f2089acbd630e7672f31cd26d233dc9df1d84072ff2354672fb2e54ac1fb9c142d513aba2db3278d71ede6c033ec2c13aed3ce55e3505e4f7b8f7a466c019f"
+}
