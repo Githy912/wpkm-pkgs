@@ -1,0 +1,8 @@
+{
+  "name": "milli",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "milli.exe",
+  "sha3-512": "d3922fa9a75b2628033264b787d5cadd20d5562b08e17f7a0953b39395c09128a2f581ebab8e0130128a6ee557b14bec2915cef1dfd24fae2db325f903320016"
+}
