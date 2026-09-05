@@ -17,7 +17,7 @@ jobs:
 verify:
 name: Verify package SHA3-512
 runs-on: ubuntu-latest
-```
+
 steps:
   - name: Checkout pull request
     uses: actions/checkout@v4
@@ -304,4 +304,3 @@ steps:
       echo "Pull request merged successfully."
       echo "Package is now LIVE."
       echo "========================================"
-```
