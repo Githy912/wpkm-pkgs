@@ -1,0 +1,8 @@
+{
+  "name": "wget",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "wget.exe",
+  "sha3-512": "37711fac9119b4112bab4a50ebb352babacf13707566cf262ee28da7de61165f18674dc1a6d861ee32f2899960d15732c8cc641fff011a1fc4c8ec0833b29d55"
+}
