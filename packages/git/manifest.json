@@ -1,0 +1,8 @@
+{
+  "name": "git",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "git.zip",
+  "sha3-512": "6e3d254456a9666c182de24d8c5177253b4327f7bb26f6f19a625bae2c3b8bb6d0ee0bd85f57b806a172118beb327138ac1220cedb3878e1eb4f7825f5b65661"
+}
