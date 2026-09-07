@@ -1,0 +1,8 @@
+{
+  "name": "grep",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "grep.zip",
+  "sha3-512": "574df927b2a497190f49a4c35414a3bb345e93dd57b36764bb8884fa1eac346da865b69b703f0461fd60468d6045ee2f35ddb73fd031c155817d353f4dec1ab7"
+}
