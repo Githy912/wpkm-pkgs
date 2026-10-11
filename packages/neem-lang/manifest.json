@@ -1,0 +1,8 @@
+{
+  "name": "neem-lang",
+  "version": "0.1.0",
+  "description": "WPKM package",
+  "architecture": "amd64",
+  "binary": "neem-lang.zip",
+  "sha3-512": "5a538fa22e520a3bed0450f82a39e616f966af39143669dc4be39634cf527ce60a54eaf0e3d6daeff8893ee6101fa4b46029e23c1b6a7e44cc0970d20c5fd5d0"
+}
